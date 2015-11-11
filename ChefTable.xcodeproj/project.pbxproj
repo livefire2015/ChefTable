@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC9DA6C11BF32A610083B306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9DA6C01BF32A610083B306 /* AppDelegate.swift */; };
+		CC9DA6C31BF32A610083B306 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9DA6C21BF32A610083B306 /* ViewController.swift */; };
+		CC9DA6C61BF32A610083B306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9DA6C41BF32A610083B306 /* Main.storyboard */; };
+		CC9DA6C91BF32A620083B306 /* ChefTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC9DA6C71BF32A620083B306 /* ChefTable.xcdatamodeld */; };
+		CC9DA6CB1BF32A620083B306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC9DA6CA1BF32A620083B306 /* Assets.xcassets */; };
+		CC9DA6CE1BF32A620083B306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9DA6CC1BF32A620083B306 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC9DA6BD1BF32A610083B306 /* ChefTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChefTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9DA6C01BF32A610083B306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC9DA6C21BF32A610083B306 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC9DA6C51BF32A610083B306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC9DA6C81BF32A620083B306 /* ChefTable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChefTable.xcdatamodel; sourceTree = "<group>"; };
+		CC9DA6CA1BF32A620083B306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC9DA6CD1BF32A620083B306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC9DA6CF1BF32A620083B306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC9DA6BA1BF32A610083B306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC9DA6B41BF32A610083B306 = {
+			isa = PBXGroup;
+			children = (
+				CC9DA6BF1BF32A610083B306 /* ChefTable */,
+				CC9DA6BE1BF32A610083B306 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC9DA6BE1BF32A610083B306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC9DA6BD1BF32A610083B306 /* ChefTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC9DA6BF1BF32A610083B306 /* ChefTable */ = {
+			isa = PBXGroup;
+			children = (
+				CC9DA6C01BF32A610083B306 /* AppDelegate.swift */,
+				CC9DA6C21BF32A610083B306 /* ViewController.swift */,
+				CC9DA6C41BF32A610083B306 /* Main.storyboard */,
+				CC9DA6CA1BF32A620083B306 /* Assets.xcassets */,
+				CC9DA6CC1BF32A620083B306 /* LaunchScreen.storyboard */,
+				CC9DA6CF1BF32A620083B306 /* Info.plist */,
+				CC9DA6C71BF32A620083B306 /* ChefTable.xcdatamodeld */,
+			);
+			path = ChefTable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC9DA6BC1BF32A610083B306 /* ChefTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC9DA6D21BF32A620083B306 /* Build configuration list for PBXNativeTarget "ChefTable" */;
+			buildPhases = (
+				CC9DA6B91BF32A610083B306 /* Sources */,
+				CC9DA6BA1BF32A610083B306 /* Frameworks */,
+				CC9DA6BB1BF32A610083B306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChefTable;
+			productName = ChefTable;
+			productReference = CC9DA6BD1BF32A610083B306 /* ChefTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC9DA6B51BF32A610083B306 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Yangye Zhu";
+				TargetAttributes = {
+					CC9DA6BC1BF32A610083B306 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = T2EAL55S64;
+					};
+				};
+			};
+			buildConfigurationList = CC9DA6B81BF32A610083B306 /* Build configuration list for PBXProject "ChefTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC9DA6B41BF32A610083B306;
+			productRefGroup = CC9DA6BE1BF32A610083B306 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC9DA6BC1BF32A610083B306 /* ChefTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC9DA6BB1BF32A610083B306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9DA6CE1BF32A620083B306 /* LaunchScreen.storyboard in Resources */,
+				CC9DA6CB1BF32A620083B306 /* Assets.xcassets in Resources */,
+				CC9DA6C61BF32A610083B306 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC9DA6B91BF32A610083B306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9DA6C91BF32A620083B306 /* ChefTable.xcdatamodeld in Sources */,
+				CC9DA6C31BF32A610083B306 /* ViewController.swift in Sources */,
+				CC9DA6C11BF32A610083B306 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC9DA6C41BF32A610083B306 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC9DA6C51BF32A610083B306 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC9DA6CC1BF32A620083B306 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC9DA6CD1BF32A620083B306 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC9DA6D01BF32A620083B306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC9DA6D11BF32A620083B306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC9DA6D31BF32A620083B306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChefTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.zyangye.ChefTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC9DA6D41BF32A620083B306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChefTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.zyangye.ChefTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC9DA6B81BF32A610083B306 /* Build configuration list for PBXProject "ChefTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9DA6D01BF32A620083B306 /* Debug */,
+				CC9DA6D11BF32A620083B306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC9DA6D21BF32A620083B306 /* Build configuration list for PBXNativeTarget "ChefTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9DA6D31BF32A620083B306 /* Debug */,
+				CC9DA6D41BF32A620083B306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC9DA6C71BF32A620083B306 /* ChefTable.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC9DA6C81BF32A620083B306 /* ChefTable.xcdatamodel */,
+			);
+			currentVersion = CC9DA6C81BF32A620083B306 /* ChefTable.xcdatamodel */;
+			path = ChefTable.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC9DA6B51BF32A610083B306 /* Project object */;
+}
