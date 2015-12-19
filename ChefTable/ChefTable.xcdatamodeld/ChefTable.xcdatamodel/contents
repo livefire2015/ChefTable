@@ -1,4 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Automatic">
+    <entity name="DIYRecomEntry" representedClassName=".DIYRecomEntry" syncable="YES">
+        <attribute name="imageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="procedure" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recipe" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="typeInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DIYRecomType" inverseName="entries" inverseEntity="DIYRecomType" syncable="YES"/>
+    </entity>
+    <entity name="DIYRecomType" representedClassName=".DIYRecomType" syncable="YES">
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="entries" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DIYRecomEntry" inverseName="typeInfo" inverseEntity="DIYRecomEntry" syncable="YES"/>
+    </entity>
+    <entity name="GoOutRecomEntry" representedClassName=".GoOutRecomEntry" syncable="YES">
+        <attribute name="imageData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" storedInTruthFile="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="place" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="typeInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GoOutRecomType" inverseName="entries" inverseEntity="GoOutRecomType" syncable="YES"/>
+    </entity>
+    <entity name="GoOutRecomType" representedClassName=".GoOutRecomType" syncable="YES">
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="entries" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="GoOutRecomEntry" inverseName="typeInfo" inverseEntity="GoOutRecomEntry" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="GoOutRecomEntry" positionX="3447" positionY="1314" width="128" height="148"/>
+        <element name="GoOutRecomType" positionX="3204" positionY="1448" width="128" height="73"/>
+        <element name="DIYRecomEntry" positionX="3447" positionY="1509" width="128" height="133"/>
+        <element name="DIYRecomType" positionX="3366" positionY="1485" width="128" height="75"/>
+    </elements>
 </model>

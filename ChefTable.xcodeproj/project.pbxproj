@@ -7,23 +7,101 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC0B06641BFEE309000AD34E /* GoOutActionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0B06631BFEE308000AD34E /* GoOutActionsViewController.swift */; };
+		CC0B06661BFEE5A9000AD34E /* DiyActionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0B06651BFEE5A9000AD34E /* DiyActionsViewController.swift */; };
+		CC0B06681BFEE7F0000AD34E /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0B06671BFEE7F0000AD34E /* ImageViewController.swift */; };
+		CC0B066A1BFEF078000AD34E /* IntrinsicallySizedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0B06691BFEF078000AD34E /* IntrinsicallySizedImageView.swift */; };
+		CC22CC5E1C02471A001008FA /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC22CC5D1C02471A001008FA /* YTPlayerView.m */; };
+		CC22CC611C024892001008FA /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = CC22CC601C024892001008FA /* Assets */; };
+		CC2DA9951C0E2ECF00DADD8C /* DeletesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2DA9941C0E2ECF00DADD8C /* DeletesTableViewController.swift */; };
+		CC3322701C0E3CEB00A79D9F /* Deletes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC33226F1C0E3CEB00A79D9F /* Deletes.swift */; };
+		CC34BCB81C0D112B0065FA82 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC34BCB71C0D112B0065FA82 /* MapKit.framework */; };
+		CC356FD91BF5ADC1008A28A6 /* EateryRecom.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC356FD81BF5ADC1008A28A6 /* EateryRecom.swift */; };
+		CC356FDB1BF5C05D008A28A6 /* RecomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC356FDA1BF5C05D008A28A6 /* RecomCollectionViewCell.swift */; };
+		CC356FDE1BF695CB008A28A6 /* RecomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC356FDD1BF695CB008A28A6 /* RecomTableViewController.swift */; };
+		CC356FE01BF69973008A28A6 /* RecomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC356FDF1BF69973008A28A6 /* RecomTableViewCell.swift */; };
+		CC356FEC1BF6F408008A28A6 /* GoOutRecomEntry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC356FEA1BF6F408008A28A6 /* GoOutRecomEntry+CoreDataProperties.swift */; };
+		CC356FED1BF6F408008A28A6 /* GoOutRecomEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC356FEB1BF6F408008A28A6 /* GoOutRecomEntry.swift */; };
+		CC356FEF1BF6F5F4008A28A6 /* GoOutRecomNewEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC356FEE1BF6F5F4008A28A6 /* GoOutRecomNewEntryViewController.swift */; };
+		CC356FF11BF6F9F2008A28A6 /* CoreDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC356FF01BF6F9F2008A28A6 /* CoreDataTableViewController.swift */; };
+		CC356FF41BF7D4F1008A28A6 /* GoOutRecomType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC356FF21BF7D4F1008A28A6 /* GoOutRecomType+CoreDataProperties.swift */; };
+		CC356FF51BF7D4F1008A28A6 /* GoOutRecomType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC356FF31BF7D4F1008A28A6 /* GoOutRecomType.swift */; };
+		CC356FF71BF9A759008A28A6 /* GoOutRecomDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC356FF61BF9A759008A28A6 /* GoOutRecomDetailsTableViewController.swift */; };
+		CC36BB291BFA6739005ACE4C /* GoOutRecomDetailsTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC36BB281BFA6739005ACE4C /* GoOutRecomDetailsTextTableViewCell.swift */; };
+		CC36BB2B1BFA6790005ACE4C /* GoOutRecomDetailsImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC36BB2A1BFA6790005ACE4C /* GoOutRecomDetailsImageTableViewCell.swift */; };
+		CC36BB2D1BFBD53E005ACE4C /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC36BB2C1BFBD53E005ACE4C /* ChoiceViewController.swift */; };
+		CC36BB331BFBF8A5005ACE4C /* DIYRecomEntry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC36BB2F1BFBF8A5005ACE4C /* DIYRecomEntry+CoreDataProperties.swift */; };
+		CC36BB341BFBF8A5005ACE4C /* DIYRecomEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC36BB301BFBF8A5005ACE4C /* DIYRecomEntry.swift */; };
+		CC36BB391BFC002C005ACE4C /* DIYRecomType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC36BB371BFC002C005ACE4C /* DIYRecomType+CoreDataProperties.swift */; };
+		CC36BB3A1BFC002C005ACE4C /* DIYRecomType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC36BB381BFC002C005ACE4C /* DIYRecomType.swift */; };
+		CC36BB3C1BFC09F6005ACE4C /* DIYRecomNewEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC36BB3B1BFC09F6005ACE4C /* DIYRecomNewEntryViewController.swift */; };
+		CC36BB401BFC0F30005ACE4C /* DIYRecomDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC36BB3F1BFC0F30005ACE4C /* DIYRecomDetailsTableViewController.swift */; };
+		CC36BB421BFD27C4005ACE4C /* DiyRecomOptionsForDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC36BB411BFD27C3005ACE4C /* DiyRecomOptionsForDetailsViewController.swift */; };
+		CC4B2D6D1BFD869400394BD6 /* DiyEmbedSegueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B2D6C1BFD869400394BD6 /* DiyEmbedSegueViewController.swift */; };
+		CC4B2D6F1BFD87D300394BD6 /* DiySplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B2D6E1BFD87D300394BD6 /* DiySplitViewController.swift */; };
+		CC4B2D791BFDAA2400394BD6 /* DiyRecomDetailsTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B2D781BFDAA2400394BD6 /* DiyRecomDetailsTextTableViewCell.swift */; };
+		CC4B2D7B1BFDAA5200394BD6 /* DiyRecomDetailsImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B2D7A1BFDAA5200394BD6 /* DiyRecomDetailsImageTableViewCell.swift */; };
+		CC590C131C012ACF00B0B1A0 /* RecentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC590C121C012ACF00B0B1A0 /* RecentsTableViewController.swift */; };
+		CC590C151C012B6800B0B1A0 /* Recents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC590C141C012B6800B0B1A0 /* Recents.swift */; };
+		CC7CC4651C02C8FD0072D4BA /* PageEntranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7CC4641C02C8FD0072D4BA /* PageEntranceViewController.swift */; };
 		CC9DA6C11BF32A610083B306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9DA6C01BF32A610083B306 /* AppDelegate.swift */; };
-		CC9DA6C31BF32A610083B306 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9DA6C21BF32A610083B306 /* ViewController.swift */; };
 		CC9DA6C61BF32A610083B306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9DA6C41BF32A610083B306 /* Main.storyboard */; };
 		CC9DA6C91BF32A620083B306 /* ChefTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC9DA6C71BF32A620083B306 /* ChefTable.xcdatamodeld */; };
 		CC9DA6CB1BF32A620083B306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC9DA6CA1BF32A620083B306 /* Assets.xcassets */; };
 		CC9DA6CE1BF32A620083B306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9DA6CC1BF32A620083B306 /* LaunchScreen.storyboard */; };
+		CCF9911E1C0C17F0005AB8C1 /* RecentsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9911D1C0C17F0005AB8C1 /* RecentsDetailViewController.swift */; };
+		CCFA15B41C178FDF0057B0E4 /* diyOptionTopLeftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFA15B31C178FDF0057B0E4 /* diyOptionTopLeftView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC0B06631BFEE308000AD34E /* GoOutActionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoOutActionsViewController.swift; sourceTree = "<group>"; };
+		CC0B06651BFEE5A9000AD34E /* DiyActionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiyActionsViewController.swift; sourceTree = "<group>"; };
+		CC0B06671BFEE7F0000AD34E /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		CC0B06691BFEF078000AD34E /* IntrinsicallySizedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntrinsicallySizedImageView.swift; sourceTree = "<group>"; };
+		CC22CC5B1C024719001008FA /* ChefTable-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChefTable-Bridging-Header.h"; sourceTree = "<group>"; };
+		CC22CC5C1C02471A001008FA /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
+		CC22CC5D1C02471A001008FA /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
+		CC22CC601C024892001008FA /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		CC2DA9941C0E2ECF00DADD8C /* DeletesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeletesTableViewController.swift; sourceTree = "<group>"; };
+		CC33226F1C0E3CEB00A79D9F /* Deletes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deletes.swift; sourceTree = "<group>"; };
+		CC34BCB71C0D112B0065FA82 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CC356FD81BF5ADC1008A28A6 /* EateryRecom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EateryRecom.swift; sourceTree = "<group>"; };
+		CC356FDA1BF5C05D008A28A6 /* RecomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecomCollectionViewCell.swift; sourceTree = "<group>"; };
+		CC356FDD1BF695CB008A28A6 /* RecomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecomTableViewController.swift; sourceTree = "<group>"; };
+		CC356FDF1BF69973008A28A6 /* RecomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecomTableViewCell.swift; sourceTree = "<group>"; };
+		CC356FEA1BF6F408008A28A6 /* GoOutRecomEntry+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GoOutRecomEntry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CC356FEB1BF6F408008A28A6 /* GoOutRecomEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoOutRecomEntry.swift; sourceTree = "<group>"; };
+		CC356FEE1BF6F5F4008A28A6 /* GoOutRecomNewEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoOutRecomNewEntryViewController.swift; sourceTree = "<group>"; };
+		CC356FF01BF6F9F2008A28A6 /* CoreDataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTableViewController.swift; sourceTree = "<group>"; };
+		CC356FF21BF7D4F1008A28A6 /* GoOutRecomType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GoOutRecomType+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CC356FF31BF7D4F1008A28A6 /* GoOutRecomType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoOutRecomType.swift; sourceTree = "<group>"; };
+		CC356FF61BF9A759008A28A6 /* GoOutRecomDetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoOutRecomDetailsTableViewController.swift; sourceTree = "<group>"; };
+		CC36BB281BFA6739005ACE4C /* GoOutRecomDetailsTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoOutRecomDetailsTextTableViewCell.swift; sourceTree = "<group>"; };
+		CC36BB2A1BFA6790005ACE4C /* GoOutRecomDetailsImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoOutRecomDetailsImageTableViewCell.swift; sourceTree = "<group>"; };
+		CC36BB2C1BFBD53E005ACE4C /* ChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
+		CC36BB2F1BFBF8A5005ACE4C /* DIYRecomEntry+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DIYRecomEntry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CC36BB301BFBF8A5005ACE4C /* DIYRecomEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIYRecomEntry.swift; sourceTree = "<group>"; };
+		CC36BB371BFC002C005ACE4C /* DIYRecomType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DIYRecomType+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CC36BB381BFC002C005ACE4C /* DIYRecomType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIYRecomType.swift; sourceTree = "<group>"; };
+		CC36BB3B1BFC09F6005ACE4C /* DIYRecomNewEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIYRecomNewEntryViewController.swift; sourceTree = "<group>"; };
+		CC36BB3F1BFC0F30005ACE4C /* DIYRecomDetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIYRecomDetailsTableViewController.swift; sourceTree = "<group>"; };
+		CC36BB411BFD27C3005ACE4C /* DiyRecomOptionsForDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiyRecomOptionsForDetailsViewController.swift; sourceTree = "<group>"; };
+		CC4B2D6C1BFD869400394BD6 /* DiyEmbedSegueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiyEmbedSegueViewController.swift; sourceTree = "<group>"; };
+		CC4B2D6E1BFD87D300394BD6 /* DiySplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiySplitViewController.swift; sourceTree = "<group>"; };
+		CC4B2D781BFDAA2400394BD6 /* DiyRecomDetailsTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiyRecomDetailsTextTableViewCell.swift; sourceTree = "<group>"; };
+		CC4B2D7A1BFDAA5200394BD6 /* DiyRecomDetailsImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiyRecomDetailsImageTableViewCell.swift; sourceTree = "<group>"; };
+		CC590C121C012ACF00B0B1A0 /* RecentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentsTableViewController.swift; sourceTree = "<group>"; };
+		CC590C141C012B6800B0B1A0 /* Recents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recents.swift; sourceTree = "<group>"; };
+		CC7CC4641C02C8FD0072D4BA /* PageEntranceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageEntranceViewController.swift; sourceTree = "<group>"; };
 		CC9DA6BD1BF32A610083B306 /* ChefTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChefTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9DA6C01BF32A610083B306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC9DA6C21BF32A610083B306 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC9DA6C51BF32A610083B306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC9DA6C81BF32A620083B306 /* ChefTable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChefTable.xcdatamodel; sourceTree = "<group>"; };
 		CC9DA6CA1BF32A620083B306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC9DA6CD1BF32A620083B306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC9DA6CF1BF32A620083B306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF9911D1C0C17F0005AB8C1 /* RecentsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentsDetailViewController.swift; sourceTree = "<group>"; };
+		CCFA15B31C178FDF0057B0E4 /* diyOptionTopLeftView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = diyOptionTopLeftView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,15 +109,101 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC34BCB81C0D112B0065FA82 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC22CC5F1C024781001008FA /* YouTube */ = {
+			isa = PBXGroup;
+			children = (
+				CC22CC601C024892001008FA /* Assets */,
+				CC22CC5C1C02471A001008FA /* YTPlayerView.h */,
+				CC22CC5D1C02471A001008FA /* YTPlayerView.m */,
+			);
+			name = YouTube;
+			sourceTree = "<group>";
+		};
+		CC356FDC1BF5C510008A28A6 /* Eatery Recommendation Collection */ = {
+			isa = PBXGroup;
+			children = (
+				CC36BB3E1BFC0A2D005ACE4C /* DIY */,
+				CC36BB3D1BFC0A1E005ACE4C /* GoOut */,
+				CC356FDF1BF69973008A28A6 /* RecomTableViewCell.swift */,
+				CC356FDD1BF695CB008A28A6 /* RecomTableViewController.swift */,
+				CC356FD81BF5ADC1008A28A6 /* EateryRecom.swift */,
+				CC0B06671BFEE7F0000AD34E /* ImageViewController.swift */,
+				CC0B06691BFEF078000AD34E /* IntrinsicallySizedImageView.swift */,
+				CC356FDA1BF5C05D008A28A6 /* RecomCollectionViewCell.swift */,
+			);
+			name = "Eatery Recommendation Collection";
+			sourceTree = "<group>";
+		};
+		CC356FE11BF6F2A1008A28A6 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				CC36BB371BFC002C005ACE4C /* DIYRecomType+CoreDataProperties.swift */,
+				CC36BB381BFC002C005ACE4C /* DIYRecomType.swift */,
+				CC36BB2F1BFBF8A5005ACE4C /* DIYRecomEntry+CoreDataProperties.swift */,
+				CC36BB301BFBF8A5005ACE4C /* DIYRecomEntry.swift */,
+				CC356FF21BF7D4F1008A28A6 /* GoOutRecomType+CoreDataProperties.swift */,
+				CC356FF31BF7D4F1008A28A6 /* GoOutRecomType.swift */,
+				CC356FF01BF6F9F2008A28A6 /* CoreDataTableViewController.swift */,
+				CC356FEA1BF6F408008A28A6 /* GoOutRecomEntry+CoreDataProperties.swift */,
+				CC356FEB1BF6F408008A28A6 /* GoOutRecomEntry.swift */,
+				CC9DA6C71BF32A620083B306 /* ChefTable.xcdatamodeld */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		CC36BB2E1BFBD554005ACE4C /* Choice Selection */ = {
+			isa = PBXGroup;
+			children = (
+				CC2DA9941C0E2ECF00DADD8C /* DeletesTableViewController.swift */,
+				CC33226F1C0E3CEB00A79D9F /* Deletes.swift */,
+				CCF9911D1C0C17F0005AB8C1 /* RecentsDetailViewController.swift */,
+				CC7CC4641C02C8FD0072D4BA /* PageEntranceViewController.swift */,
+				CC590C121C012ACF00B0B1A0 /* RecentsTableViewController.swift */,
+				CC590C141C012B6800B0B1A0 /* Recents.swift */,
+				CC36BB2C1BFBD53E005ACE4C /* ChoiceViewController.swift */,
+			);
+			name = "Choice Selection";
+			sourceTree = "<group>";
+		};
+		CC36BB3D1BFC0A1E005ACE4C /* GoOut */ = {
+			isa = PBXGroup;
+			children = (
+				CC0B06631BFEE308000AD34E /* GoOutActionsViewController.swift */,
+				CC36BB281BFA6739005ACE4C /* GoOutRecomDetailsTextTableViewCell.swift */,
+				CC36BB2A1BFA6790005ACE4C /* GoOutRecomDetailsImageTableViewCell.swift */,
+				CC356FEE1BF6F5F4008A28A6 /* GoOutRecomNewEntryViewController.swift */,
+				CC356FF61BF9A759008A28A6 /* GoOutRecomDetailsTableViewController.swift */,
+			);
+			name = GoOut;
+			sourceTree = "<group>";
+		};
+		CC36BB3E1BFC0A2D005ACE4C /* DIY */ = {
+			isa = PBXGroup;
+			children = (
+				CCFA15B31C178FDF0057B0E4 /* diyOptionTopLeftView.swift */,
+				CC0B06651BFEE5A9000AD34E /* DiyActionsViewController.swift */,
+				CC4B2D7A1BFDAA5200394BD6 /* DiyRecomDetailsImageTableViewCell.swift */,
+				CC4B2D781BFDAA2400394BD6 /* DiyRecomDetailsTextTableViewCell.swift */,
+				CC36BB411BFD27C3005ACE4C /* DiyRecomOptionsForDetailsViewController.swift */,
+				CC36BB3F1BFC0F30005ACE4C /* DIYRecomDetailsTableViewController.swift */,
+				CC4B2D6C1BFD869400394BD6 /* DiyEmbedSegueViewController.swift */,
+				CC4B2D6E1BFD87D300394BD6 /* DiySplitViewController.swift */,
+				CC36BB3B1BFC09F6005ACE4C /* DIYRecomNewEntryViewController.swift */,
+			);
+			name = DIY;
+			sourceTree = "<group>";
+		};
 		CC9DA6B41BF32A610083B306 = {
 			isa = PBXGroup;
 			children = (
+				CC34BCB71C0D112B0065FA82 /* MapKit.framework */,
 				CC9DA6BF1BF32A610083B306 /* ChefTable */,
 				CC9DA6BE1BF32A610083B306 /* Products */,
 			);
@@ -56,15 +220,26 @@
 		CC9DA6BF1BF32A610083B306 /* ChefTable */ = {
 			isa = PBXGroup;
 			children = (
-				CC9DA6C01BF32A610083B306 /* AppDelegate.swift */,
-				CC9DA6C21BF32A610083B306 /* ViewController.swift */,
 				CC9DA6C41BF32A610083B306 /* Main.storyboard */,
+				CC22CC5F1C024781001008FA /* YouTube */,
+				CC36BB2E1BFBD554005ACE4C /* Choice Selection */,
+				CC356FDC1BF5C510008A28A6 /* Eatery Recommendation Collection */,
+				CC356FE11BF6F2A1008A28A6 /* Core Data */,
+				CC9DA6D51BF32AAF0083B306 /* Supporting Files */,
+			);
+			path = ChefTable;
+			sourceTree = "<group>";
+		};
+		CC9DA6D51BF32AAF0083B306 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC22CC5B1C024719001008FA /* ChefTable-Bridging-Header.h */,
+				CC9DA6C01BF32A610083B306 /* AppDelegate.swift */,
 				CC9DA6CA1BF32A620083B306 /* Assets.xcassets */,
 				CC9DA6CC1BF32A620083B306 /* LaunchScreen.storyboard */,
 				CC9DA6CF1BF32A620083B306 /* Info.plist */,
-				CC9DA6C71BF32A620083B306 /* ChefTable.xcdatamodeld */,
 			);
-			path = ChefTable;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,6 +275,11 @@
 					CC9DA6BC1BF32A610083B306 = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = T2EAL55S64;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -127,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC9DA6CE1BF32A620083B306 /* LaunchScreen.storyboard in Resources */,
+				CC22CC611C024892001008FA /* Assets in Resources */,
 				CC9DA6CB1BF32A620083B306 /* Assets.xcassets in Resources */,
 				CC9DA6C61BF32A610083B306 /* Main.storyboard in Resources */,
 			);
@@ -139,9 +320,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC4B2D7B1BFDAA5200394BD6 /* DiyRecomDetailsImageTableViewCell.swift in Sources */,
+				CC356FD91BF5ADC1008A28A6 /* EateryRecom.swift in Sources */,
+				CC356FDE1BF695CB008A28A6 /* RecomTableViewController.swift in Sources */,
+				CC0B066A1BFEF078000AD34E /* IntrinsicallySizedImageView.swift in Sources */,
+				CC36BB401BFC0F30005ACE4C /* DIYRecomDetailsTableViewController.swift in Sources */,
+				CC4B2D791BFDAA2400394BD6 /* DiyRecomDetailsTextTableViewCell.swift in Sources */,
+				CC36BB291BFA6739005ACE4C /* GoOutRecomDetailsTextTableViewCell.swift in Sources */,
 				CC9DA6C91BF32A620083B306 /* ChefTable.xcdatamodeld in Sources */,
-				CC9DA6C31BF32A610083B306 /* ViewController.swift in Sources */,
 				CC9DA6C11BF32A610083B306 /* AppDelegate.swift in Sources */,
+				CC4B2D6F1BFD87D300394BD6 /* DiySplitViewController.swift in Sources */,
+				CC356FE01BF69973008A28A6 /* RecomTableViewCell.swift in Sources */,
+				CCFA15B41C178FDF0057B0E4 /* diyOptionTopLeftView.swift in Sources */,
+				CC36BB421BFD27C4005ACE4C /* DiyRecomOptionsForDetailsViewController.swift in Sources */,
+				CC590C131C012ACF00B0B1A0 /* RecentsTableViewController.swift in Sources */,
+				CC7CC4651C02C8FD0072D4BA /* PageEntranceViewController.swift in Sources */,
+				CC356FF51BF7D4F1008A28A6 /* GoOutRecomType.swift in Sources */,
+				CC36BB2B1BFA6790005ACE4C /* GoOutRecomDetailsImageTableViewCell.swift in Sources */,
+				CC0B06661BFEE5A9000AD34E /* DiyActionsViewController.swift in Sources */,
+				CC356FEF1BF6F5F4008A28A6 /* GoOutRecomNewEntryViewController.swift in Sources */,
+				CC356FDB1BF5C05D008A28A6 /* RecomCollectionViewCell.swift in Sources */,
+				CC356FED1BF6F408008A28A6 /* GoOutRecomEntry.swift in Sources */,
+				CC356FF41BF7D4F1008A28A6 /* GoOutRecomType+CoreDataProperties.swift in Sources */,
+				CC22CC5E1C02471A001008FA /* YTPlayerView.m in Sources */,
+				CCF9911E1C0C17F0005AB8C1 /* RecentsDetailViewController.swift in Sources */,
+				CC36BB341BFBF8A5005ACE4C /* DIYRecomEntry.swift in Sources */,
+				CC356FF11BF6F9F2008A28A6 /* CoreDataTableViewController.swift in Sources */,
+				CC36BB331BFBF8A5005ACE4C /* DIYRecomEntry+CoreDataProperties.swift in Sources */,
+				CC356FF71BF9A759008A28A6 /* GoOutRecomDetailsTableViewController.swift in Sources */,
+				CC0B06681BFEE7F0000AD34E /* ImageViewController.swift in Sources */,
+				CC356FEC1BF6F408008A28A6 /* GoOutRecomEntry+CoreDataProperties.swift in Sources */,
+				CC0B06641BFEE309000AD34E /* GoOutActionsViewController.swift in Sources */,
+				CC3322701C0E3CEB00A79D9F /* Deletes.swift in Sources */,
+				CC36BB2D1BFBD53E005ACE4C /* ChoiceViewController.swift in Sources */,
+				CC36BB391BFC002C005ACE4C /* DIYRecomType+CoreDataProperties.swift in Sources */,
+				CC4B2D6D1BFD869400394BD6 /* DiyEmbedSegueViewController.swift in Sources */,
+				CC2DA9951C0E2ECF00DADD8C /* DeletesTableViewController.swift in Sources */,
+				CC36BB3A1BFC002C005ACE4C /* DIYRecomType.swift in Sources */,
+				CC590C151C012B6800B0B1A0 /* Recents.swift in Sources */,
+				CC36BB3C1BFC09F6005ACE4C /* DIYRecomNewEntryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,10 +471,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ChefTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.zyangye.ChefTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChefTable/ChefTable-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -265,10 +488,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ChefTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.zyangye.ChefTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChefTable/ChefTable-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -291,6 +519,7 @@
 				CC9DA6D41BF32A620083B306 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
