@@ -1,6 +1,7 @@
 # ChefTable
 
 Instructions:
+
 1. Page control: open app -> two pages, first page about "Go out!" and second
 about "DIY!"; custom appearance of navigation bar
 
